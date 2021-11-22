@@ -5,4 +5,15 @@
 }
 [class*="col-"]{
     background-color: dodgerblue;
+    height: 40px;
+    border: solid 1px #fff;
+}
+.green{
+    background-color: green;
+    height: 20px;
+}
+.row-pad{
+    height: 100%;
+    padding: 5px;
+    align-items: center;
 }
