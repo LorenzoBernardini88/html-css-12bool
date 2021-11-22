@@ -18,6 +18,7 @@
     align-items: center;
 }
 
+/* JUSTIFY CONTENT */
 .row-pad.space-around{
     display: flex;
     flex-direction: row;
@@ -28,3 +29,29 @@
     flex-direction: row;
     justify-content: space-between;
 }
+/* ALIGNMENT */
+.row.center{
+    justify-content: center;
+}
+.row.end{
+    justify-content: flex-end;
+}
+.col-6.blue,
+.col-6.white{
+    height: 80px;
+}
+.col-6.blue{
+    background-color: dodgerblue; 
+}
+
+.col-6.white{
+    display: flex;
+    background-color: #fff;
+}
+.col-6.white.middle{
+    align-items: center;
+}
+.col-6.white.bottom{
+    align-items:flex-end;
+}
+
