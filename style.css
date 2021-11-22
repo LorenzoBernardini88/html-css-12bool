@@ -17,3 +17,14 @@
     padding: 5px;
     align-items: center;
 }
+
+.row-pad.space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row-pad.space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
